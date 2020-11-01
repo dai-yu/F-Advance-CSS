@@ -41,8 +41,14 @@ main {
   justify-content: space-between;
 }
 
-article {
-  width: 400px;
+.web-article {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  background-color: rgb(175, 175, 175);
+}
+.aritcle-word {
+  padding: 10px;
+  background-color: white;
 }
 
 .web-article img {
@@ -50,6 +56,11 @@ article {
 }
 
 .main-left {
+  width: 48%;
   display: flex;
   flex-direction: column;
+}
+
+.main-right {
+  width: 48%;
 }
