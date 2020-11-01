@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 * {
@@ -33,6 +33,23 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+aside {
+  width: 10%;
+}
+
+aside h1 {
+  font-style: italic;
+}
+.about {
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+}
+
+.time-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 main {
