@@ -7,6 +7,9 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 * {
@@ -23,10 +26,30 @@ ul {
   height: 50px;
   color: white;
   margin-bottom: 5%;
+  width: 100%;
 }
 .navigation {
   height: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+main {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 400px;
+}
+
+.web-article img {
+  width: 100%;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
 }
