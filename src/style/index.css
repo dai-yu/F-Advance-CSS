@@ -71,6 +71,9 @@ main {
 .web-article img {
   width: 100%;
 }
+.web-article a {
+  color: cornflowerblue;
+}
 
 .main-left {
   width: 48%;
