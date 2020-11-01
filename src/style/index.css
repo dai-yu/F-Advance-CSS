@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 * {
@@ -37,6 +38,7 @@ ul {
 
 .aside-left {
   width: 10%;
+  height: 800px;
 }
 
 .aside-left h1 {
@@ -83,4 +85,42 @@ main {
 
 .main-right {
   width: 48%;
+}
+
+.aside-right {
+  background-color: rgb(223, 223, 223);
+  width: 15%;
+  height: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.email {
+  height: 40px;
+  width: 90%;
+  border-color: rgb(224, 224, 224);
+  border-width: 1px;
+  border-radius: 5px;
+}
+.password {
+  height: 40px;
+  width: 90%;
+  border-color: rgb(224, 224, 224);
+  border-width: 1px;
+  border-radius: 5px;
+}
+.check {
+  margin: 10px 0px;
+}
+.submit {
+  width: 90%;
+  height: 40px;
+  background-color: rgb(39, 110, 243);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
 }
